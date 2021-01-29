@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name basketweave)(type Legacy)(uri ${KIPRJMOD}/basketweave.lib)(options "")(descr ""))
   (lib (name keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-rescue.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${PIIT_MK_LIBS}/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri ${PIIT_MK_LIBS}/Type-C/Type-C.lib)(options "")(descr ""))
 )
