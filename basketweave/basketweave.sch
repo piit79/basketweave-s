@@ -1053,8 +1053,6 @@ W
 Text Notes 5250 1950 0    50   ~ 0
 Q
 Connection ~ 9650 1400
-Text Notes 4550 2750 0    50   ~ 0
-M2
 Text Notes 4550 1950 0    50   ~ 0
 M1
 Text Notes 4950 1150 0    50   ~ 0
@@ -2857,7 +2855,7 @@ F 3 "~" V 4450 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4200 3200 4450 3200
+	4200 3200 4275 3200
 Wire Wire Line
 	4800 3100 4450 3100
 Wire Wire Line
@@ -2865,7 +2863,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3100 4450 2950
 Wire Wire Line
-	4200 3000 4750 3000
+	4200 3000 4350 3000
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX72
 U 1 1 6089ED33
@@ -2905,7 +2903,7 @@ U 1 1 608A4D06
 P 9700 1700
 F 0 "D72" V 9746 1632 50  0000 R CNN
 F 1 "D_Small" V 9655 1632 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 9700 1700 50  0001 C CNN
+F 2 "basketweave:Diode_TH_SOD123" V 9700 1700 50  0001 C CNN
 F 3 "~" V 9700 1700 50  0001 C CNN
 	1    9700 1700
 	0    -1   -1   0   
@@ -2966,7 +2964,7 @@ Connection ~ 1250 5950
 Connection ~ 1250 6950
 Connection ~ 4750 1400
 Wire Wire Line
-	4750 1400 4750 3000
+	4750 1400 4750 2200
 Wire Wire Line
 	5100 950  5100 1400
 $Comp
@@ -3121,4 +3119,45 @@ Wire Wire Line
 Connection ~ 5100 3800
 Wire Wire Line
 	5100 3800 5100 4650
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 60B2DC66
+P 4600 2250
+F 0 "MX16" H 4633 2473 60  0000 C CNN
+F 1 "MX-NoLED" H 4633 2399 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3975 2225 60  0001 C CNN
+F 3 "" H 3975 2225 60  0001 C CNN
+	1    4600 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 2200
+Wire Wire Line
+	4750 2200 4750 3000
+Wire Wire Line
+	4450 2400 4550 2400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX75
+U 1 1 60BAB4FA
+P 3325 2725
+F 0 "MX75" H 3358 2948 60  0000 C CNN
+F 1 "MX-NoLED" H 3358 2874 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 2700 2700 60  0001 C CNN
+F 3 "" H 2700 2700 60  0001 C CNN
+	1    3325 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 2675 4350 2675
+Wire Wire Line
+	4350 2675 4350 3000
+Connection ~ 4350 3000
+Wire Wire Line
+	4350 3000 4750 3000
+Wire Wire Line
+	3275 2875 4275 2875
+Wire Wire Line
+	4275 2875 4275 3200
+Connection ~ 4275 3200
+Wire Wire Line
+	4275 3200 4450 3200
 $EndSCHEMATC

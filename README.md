@@ -1,13 +1,12 @@
-# Basketweave
-![Basketweave](https://i.imgur.com/zojBeHq.jpg)
+# Basketweave-S
 
-Through-hole Alice-style keyboard with arrow keys and a rotary encoder
+Through-hole Alice-style keyboard with arrow keys, symmetric 3-key macro clusters, and a rotary encoder
 
+Based on the [Basketweave](https://github.com/null-l/basketweave) by [null-l](https://github.com/null-l)
 
 ### Default Layout
-![Default Layout](https://i.imgur.com/LMndm49.png)
-> View on [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/9b58a2c896b3cc25a28ef1dc43d93095) - for reference only
-
+![Default Layout](https://raw.githubusercontent.com/piit79/basketweave-s/master/basketweave-s-layout.png)
+> View on [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/975ace00974ba7fb16d758d6a68e5321)
 
 ### BOM and Build Guide
 [Build Guide](doc/build.md)
