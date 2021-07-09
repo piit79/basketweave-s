@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="371.472mm" height="42.184mm" viewBox="-389.734192 19.907841 371.472473 42.184322">
+    <circle transform="matrix(0.00254,0,0,0.00254,-250.911011,41.303062)" style="stroke:#000000;stroke-width:0.05mm;fill:none" r="433.071014" cx="0" cy="0"/>
+    <circle transform="matrix(0.00254,0,0,0.00254,-22.265015,23.906658)" style="stroke:#000000;stroke-width:0.05mm;fill:none" r="433.071014" cx="0" cy="0"/>
+    <path transform="matrix(-1,0,0,1,0,0)" style="stroke:#000000;stroke-width:0.05mm;fill:none" d="M18.264282,23.08284L18.264282,42.140461C18.264282,43.893963,19.68576,45.318001,21.43927,45.318001L134.949341,45.318001L212.907013,62.092163L218.906494,62.092163L296.874329,45.31546L386.56427,45.31546C388.317749,45.315464,389.734192,43.893967,389.734192,42.140461L389.734192,23.08284C389.734192,21.32933,388.312714,19.907833,386.559204,19.907841L21.43927,19.917999C19.68576,19.917999,18.261719,21.340538,18.261719,23.094042"/>
+    <circle transform="matrix(0.00254,0,0,0.00254,-180.901016,41.303062)" style="stroke:#000000;stroke-width:0.05mm;fill:none" r="433.071014" cx="0" cy="0"/>
+    <circle transform="matrix(0.00254,0,0,0.00254,-385.735199,41.303062)" style="stroke:#000000;stroke-width:0.05mm;fill:none" r="433.071014" cx="0" cy="0"/>
+    <circle transform="matrix(0.00254,0,0,0.00254,-22.265015,41.303062)" style="stroke:#000000;stroke-width:0.05mm;fill:none" r="433.071014" cx="0" cy="0"/>
+    <circle transform="matrix(0.00254,0,0,0.00254,-385.735199,23.906658)" style="stroke:#000000;stroke-width:0.05mm;fill:none" r="433.071014" cx="0" cy="0"/>
+</svg>
