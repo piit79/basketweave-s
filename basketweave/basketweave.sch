@@ -3160,4 +3160,30 @@ Wire Wire Line
 Connection ~ 4275 3200
 Wire Wire Line
 	4275 3200 4450 3200
+$Comp
+L Mechanical:MountingHole PATTERN1
+U 1 1 60EB8649
+P 5750 5950
+F 0 "PATTERN1" H 5850 5996 50  0000 L CNN
+F 1 "Pattern_Left" H 5850 5905 50  0000 L CNN
+F 2 "basketweave:pattern_left" H 5750 5950 50  0001 C CNN
+F 3 "~" H 5750 5950 50  0001 C CNN
+	1    5750 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole PATTERN2
+U 1 1 60EB99AB
+P 5750 6150
+F 0 "PATTERN2" H 5850 6196 50  0000 L CNN
+F 1 "Pattern_Right" H 5850 6105 50  0000 L CNN
+F 2 "basketweave:pattern_right" H 5750 6150 50  0001 C CNN
+F 3 "~" H 5750 6150 50  0001 C CNN
+	1    5750 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 7250 1250 7150
+Connection ~ 1250 7250
+Connection ~ 1250 7150
 $EndSCHEMATC
