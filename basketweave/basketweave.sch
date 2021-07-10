@@ -29,7 +29,7 @@ L Switch:SW_Push SW2
 U 1 1 5EF4F3CB
 P 3500 7200
 F 0 "SW2" H 3500 7485 50  0000 C CNN
-F 1 "SW_Push" H 3500 7394 50  0000 C CNN
+F 1 "RESET" H 3500 7394 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3500 7400 50  0001 C CNN
 F 3 "~" H 3500 7400 50  0001 C CNN
 	1    3500 7200
@@ -415,7 +415,7 @@ L Switch:SW_Push SW1
 U 1 1 5EF97925
 P 3500 6250
 F 0 "SW1" H 3500 6535 50  0000 C CNN
-F 1 "SW_Push" H 3500 6444 50  0000 C CNN
+F 1 "BOOT" H 3500 6444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3500 6450 50  0001 C CNN
 F 3 "~" H 3500 6450 50  0001 C CNN
 	1    3500 6250
@@ -551,9 +551,9 @@ ROW1
 Text GLabel 2700 1800 2    50   Input ~ 0
 ROW3
 Text GLabel 2700 2300 2    50   Input ~ 0
-EN1
+EN_A1
 Text GLabel 2700 2400 2    50   Input ~ 0
-EN2
+EN_A2
 Text GLabel 2700 1600 2    50   Input ~ 0
 ROW4
 $Comp
@@ -734,9 +734,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 950  4750 1400
 Wire Wire Line
-	6550 4850 6750 4850
+	6550 4850 6650 4850
 Wire Wire Line
-	5850 4850 6050 4850
+	5850 4850 5950 4850
 Wire Wire Line
 	6050 5400 6150 5400
 Wire Wire Line
@@ -1052,7 +1052,6 @@ Text Notes 5600 1950 0    50   ~ 0
 W
 Text Notes 5250 1950 0    50   ~ 0
 Q
-Connection ~ 9650 1400
 Text Notes 4550 1950 0    50   ~ 0
 M1
 Text Notes 4950 1150 0    50   ~ 0
@@ -1085,8 +1084,6 @@ Text Notes 5250 1150 0    50   ~ 0
 1
 Text Notes 4550 1150 0    50   ~ 0
 ESC
-Wire Wire Line
-	9650 1400 9650 950 
 Text GLabel 9650 950  1    50   Input ~ 0
 COL14
 Text GLabel 9300 950  1    50   Input ~ 0
@@ -2795,7 +2792,7 @@ U 1 1 5FEF8062
 P 3900 3100
 F 0 "SW3" H 3900 3467 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3900 3376 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 3750 3260 50  0001 C CNN
+F 2 "basketweave:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-for-MX" H 3750 3260 50  0001 C CNN
 F 3 "~" H 3900 3360 50  0001 C CNN
 	1    3900 3100
 	1    0    0    -1  
@@ -2814,28 +2811,20 @@ $EndComp
 Wire Wire Line
 	3600 3100 3250 3100
 Text GLabel 3600 3000 0    50   Input ~ 0
-EN1
+EN_A1
 Text GLabel 3600 3200 0    50   Input ~ 0
-EN2
-Wire Wire Line
-	9650 1425 9650 2200
+EN_A2
 $Comp
-L Type-C:USB_C_GCT_USB4085-GF-A U2
+L Type-C:USB_C_GCT_USB4085-GF-A USB1
 U 1 1 5EF62700
 P 1150 6500
-F 0 "U2" H 1183 6615 50  0000 C CNN
+F 0 "USB1" H 1183 6615 50  0000 C CNN
 F 1 "GCT-USB-4085-GF-A" H 1183 6524 50  0000 C CNN
 F 2 "Type-C:USB_C_GCT_USB4085" H 1150 6500 50  0001 C CNN
 F 3 "" H 1150 6500 50  0001 C CNN
 	1    1150 6500
 	1    0    0    -1  
 $EndComp
-Connection ~ 9650 2200
-Wire Wire Line
-	9650 2200 9650 3000
-Connection ~ 9650 3000
-Wire Wire Line
-	9650 3000 9650 3800
 Wire Wire Line
 	4650 2750 5050 2750
 Wire Wire Line
@@ -2903,7 +2892,7 @@ U 1 1 608A4D06
 P 9700 1700
 F 0 "D72" V 9746 1632 50  0000 R CNN
 F 1 "D_Small" V 9655 1632 50  0000 R CNN
-F 2 "basketweave:Diode_TH_SOD123" V 9700 1700 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 9700 1700 50  0001 C CNN
 F 3 "~" V 9700 1700 50  0001 C CNN
 	1    9700 1700
 	0    -1   -1   0   
@@ -3186,4 +3175,61 @@ Wire Wire Line
 	1250 7250 1250 7150
 Connection ~ 1250 7250
 Connection ~ 1250 7150
+Wire Wire Line
+	10225 3000 10000 3000
+Connection ~ 10000 3000
+Wire Wire Line
+	10225 3200 9800 3200
+Connection ~ 9800 3200
+$Comp
+L power:GND #PWR0103
+U 1 1 60F93DF5
+P 11150 3100
+F 0 "#PWR0103" H 11150 2850 50  0001 C CNN
+F 1 "GND" H 11155 2927 50  0000 C CNN
+F 2 "" H 11150 3100 50  0001 C CNN
+F 3 "" H 11150 3100 50  0001 C CNN
+	1    11150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10825 3100 11150 3100
+Text GLabel 2700 3900 2    50   Input ~ 0
+EN_B1
+Text GLabel 2700 3800 2    50   Input ~ 0
+EN_B2
+Text GLabel 10825 3000 2    50   Input ~ 0
+EN_B1
+Text GLabel 10825 3200 2    50   Input ~ 0
+EN_B2
+$Comp
+L Device:Rotary_Encoder_Switch SW4
+U 1 1 60EF97DC
+P 10525 3100
+F 0 "SW4" H 10525 3467 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 10525 3376 50  0000 C CNN
+F 2 "basketweave:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-for-MX" H 10375 3260 50  0001 C CNN
+F 3 "~" H 10525 3360 50  0001 C CNN
+	1    10525 3100
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6150 4650
+Connection ~ 5950 4850
+Wire Wire Line
+	5950 4850 6050 4850
+Connection ~ 6850 4650
+Connection ~ 6650 4850
+Wire Wire Line
+	6650 4850 6750 4850
+Wire Wire Line
+	9650 950  9650 1400
+Connection ~ 9650 1400
+Wire Wire Line
+	9650 1400 9650 2200
+Connection ~ 9650 2200
+Wire Wire Line
+	9650 2200 9650 3000
+Connection ~ 9650 3000
+Wire Wire Line
+	9650 3000 9650 3800
 $EndSCHEMATC
