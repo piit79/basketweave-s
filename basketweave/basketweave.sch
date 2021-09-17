@@ -732,7 +732,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3000 5100 3800
 Wire Wire Line
-	4750 950  4750 1400
+	4750 950  4750 1275
 Wire Wire Line
 	6550 4850 6650 4850
 Wire Wire Line
@@ -2851,8 +2851,6 @@ Wire Wire Line
 	4800 3200 4800 3100
 Wire Wire Line
 	4450 3100 4450 2950
-Wire Wire Line
-	4200 3000 4350 3000
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX72
 U 1 1 6089ED33
@@ -3175,11 +3173,7 @@ Wire Wire Line
 	1250 7250 1250 7150
 Connection ~ 1250 7250
 Connection ~ 1250 7150
-Wire Wire Line
-	10225 3000 10000 3000
 Connection ~ 10000 3000
-Wire Wire Line
-	10225 3200 9800 3200
 Connection ~ 9800 3200
 $Comp
 L power:GND #PWR0103
@@ -3232,4 +3226,86 @@ Wire Wire Line
 Connection ~ 9650 3000
 Wire Wire Line
 	9650 3000 9650 3800
+$Comp
+L Device:Rotary_Encoder_Switch SW6
+U 1 1 611D1D59
+P 10500 1500
+F 0 "SW6" H 10500 1867 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 10500 1776 50  0000 C CNN
+F 2 "basketweave:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-for-MX" H 10350 1660 50  0001 C CNN
+F 3 "~" H 10500 1760 50  0001 C CNN
+	1    10500 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611DD37B
+P 11125 1500
+F 0 "#PWR?" H 11125 1250 50  0001 C CNN
+F 1 "GND" H 11130 1327 50  0000 C CNN
+F 2 "" H 11125 1500 50  0001 C CNN
+F 3 "" H 11125 1500 50  0001 C CNN
+	1    11125 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 1500 11125 1500
+Text GLabel 10800 1400 2    50   Input ~ 0
+EN_B1
+Text GLabel 10800 1600 2    50   Input ~ 0
+EN_B2
+$Comp
+L Device:Rotary_Encoder_Switch SW5
+U 1 1 61236587
+P 3900 1500
+F 0 "SW5" H 3900 1867 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 3900 1776 50  0000 C CNN
+F 2 "basketweave:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-for-MX" H 3750 1660 50  0001 C CNN
+F 3 "~" H 3900 1760 50  0001 C CNN
+	1    3900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6123658D
+P 3250 1500
+F 0 "#PWR?" H 3250 1250 50  0001 C CNN
+F 1 "GND" H 3255 1327 50  0000 C CNN
+F 2 "" H 3250 1500 50  0001 C CNN
+F 3 "" H 3250 1500 50  0001 C CNN
+	1    3250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1500 3250 1500
+Text GLabel 3600 1400 0    50   Input ~ 0
+EN_A1
+Text GLabel 3600 1600 0    50   Input ~ 0
+EN_A2
+Wire Wire Line
+	4200 3000 4350 3000
+Wire Wire Line
+	9800 3200 10225 3200
+Wire Wire Line
+	10000 3000 10225 3000
+Wire Wire Line
+	10225 1400 10200 1400
+Connection ~ 10200 1400
+Wire Wire Line
+	10200 1400 10000 1400
+Wire Wire Line
+	10200 1600 9800 1600
+Connection ~ 9800 1600
+Wire Wire Line
+	4200 1600 4450 1600
+Connection ~ 4450 1600
+Wire Wire Line
+	4200 1400 4275 1400
+Wire Wire Line
+	4275 1400 4275 1275
+Wire Wire Line
+	4275 1275 4750 1275
+Connection ~ 4750 1275
+Wire Wire Line
+	4750 1275 4750 1400
 $EndSCHEMATC
