@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name basketweave_bottom)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (lib (name basketweave)(type KiCad)(uri ${KIPRJMOD}/../basketweave/basketweave.pretty)(options "")(descr ""))
 )
