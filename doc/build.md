@@ -12,6 +12,9 @@ You will need the following tools and components to build the Basketweave-S (not
 - Keycaps (check compatibility, this layout uses many non-standard keys)
 - USB Type C cable
 - (Optional) Some sort of desoldering tool
+- (Optional) A switch puller if you want to use Millmax sockets
+
+
 ## Included Components
 The following components are included in the Basketweave keyboard kit:
 ![kit](https://imgur.com/4uvzEY2.png)
