@@ -2,7 +2,7 @@
 
 ## Required Components
 You will need the following tools and components to build the Basketweave-S (not included in the kit):
-![components](https://imgur.com/4uvzEY2.png)
+![components](https://imgur.com/C8kzkQa.png)
 - Soldering iron and solder
 - Phillips head screwdriver
 - Flush side cutters
@@ -11,9 +11,11 @@ You will need the following tools and components to build the Basketweave-S (not
 - 5 PCB mount 2u stabilizers
 - Keycaps (check compatibility, this layout uses many non-standard keys)
 - USB Type C cable
+- (Optional) Some sort of desoldering tool
 ## Included Components
 The following components are included in the Basketweave keyboard kit:
-![kit](https://imgur.com/C8kzkQa)
+![kit](https://imgur.com/4uvzEY2.png)
+(The picture includes millmax sockets and stabilizers that can also be purchased alongside the 42 kit but are not included)
 | Ref     | Component              | Qty | Notes |
 | ---     | ---------              | --- | ----- |
 | C1, C2  | 22pF Capacitor         | 2
@@ -46,7 +48,7 @@ The following components are included in the Basketweave keyboard kit:
 
 ### Step 1. Zener Diodes (D69, D70)
 **This part has specific orientation** - black line on the diode lines up with the square pad (points left)
-![Zener Diodes](https://imgur.com/2dWvPp2)
+![Zener Diodes](https://imgur.com/2dWvPp2.png)
 
 ### Step 2. Resistors (R1-7)
 Orientation does not matter. Solder based on the labeled values.
@@ -56,13 +58,14 @@ Orientation does not matter. Solder based on the labeled values.
 | R2, R5 | 5.1k  |
 | R3, R4 | 75    |
 | R6     | 10k   |
-![Resistors](https://imgur.com/haA16fU)
 
-### Step 3. 1n1418 Diodes (D1-68, D71-74)
+![Resistors](https://imgur.com/haA16fU.png)
+
+### Step 3. 1n1418 Diodes (D1-68, D72-74)
 **This part has a specific orientation** - black line on the diode lines up with the square pad (points up)
-![Diodes](https://imgur.com/qEMczrJ)
+![Diodes](https://imgur.com/qEMczrJ.png)
 Don't forget the D72-74 ones !
-![Extra diodes](https://imgur.com/6sOD2Mj)
+![Extra diodes](https://imgur.com/6sOD2Mj.png)
 
 ### Step 4. Capacitors (C1-4)
 Orientation does not matter. Solder based on the labeled values.
@@ -70,43 +73,44 @@ Orientation does not matter. Solder based on the labeled values.
 | ------ | ----- |
 | C1, C2 | 22uF  |
 | C3, C4 | 0.1uF |
-![Capacitors](https://imgur.com/4xfcnwh)
+
+![Capacitors](https://imgur.com/4xfcnwh.png)
 
 ### Step 5. USB Port
 Solder one of the large legs first and check that the port is flush before soldering the other three legs. \
 Solder the smaller pins by applying no-clean flux across the pins, then drag a small amount of solder across the pins until all the holes are filled.
-![USB port](https://imgur.com/2BZQcIB)
+![USB port](https://imgur.com/2BZQcIB.png)
 
 ### Step 6. Capacitor (C5)
 **This part has a specific orientation** - longer leg goes in square pad (white mark on the capacitor points up)
-![Capacitor](https://imgur.com/VPMZwld)
+![Capacitor](https://imgur.com/VPMZwld.png)
 
 ### Step 7. Fuse
 Orientation does not matter. Fold down after soldering.
-![Fuse](https://imgur.com/mGPtuYl)
+![Fuse](https://imgur.com/mGPtuYl.png)
 
 ### Step 8. Crystal (Y1)
 Orientation does not matter.
-![Crystal](https://imgur.com/zMjaGQZ)
+![Crystal](https://imgur.com/zMjaGQZ.png)
 
-### Step 9. LED
+### Step 9. LED (D71)
 **This part has a specific orientation** - shorter leg and flat side of the LED line up with the square pad
-![LED](https://imgur.com/3Rwh3kY)
+![LED](https://imgur.com/3Rwh3kY.png)
 
 ### Step 10. Push Button (RESET, BOOT) and IC Socket
 Push buttons have no specific orientation. \
 Align the notch on the IC Socket with the markings on the PCB. 
-![Push button and IC socket](https://imgur.com/CIPhDrD)
+![Push button and IC socket](https://imgur.com/CIPhDrD.png)
 
 ### Step 11. Pin Header
 Orientation does not matter. 
-![Pin header](https://imgur.com/ZYlZZbF)
+![Pin header](https://imgur.com/ZYlZZbF.png)
 
 ### Step 12. ATmega32A
 Insert ATmega32A into the IC socket. Make sure the notch on the microcontroller aligns with the notch in the IC socket and the markings on the PCB then press gently.
-![ATmega32A](https://imgur.com/KjZF7Ug)
+![ATmega32A](https://imgur.com/KjZF7Ug.png)
 
-###### Step 12b (optional) : Flash your keyboard and check if everything is fine.
+### Step 12b (optional) : Flash your keyboard and check if everything is fine.
 It's better to check now before you solder anyhting else.
 
 ### Step 13. M2 6mm Standoffs, M2 10+3mm Standoffs, M2 4mm screws, stabilizers
@@ -115,12 +119,13 @@ It's better to check now before you solder anyhting else.
 | M2 10+3mm standoff | 6   | Front top    |
 | M2 4mm screws      | 5   | Front bottom |
 | M2 6mm standoff    | 11  | Back         |
+
 Now is a good time to insert stabilizers too. You can't insert standoffs or stabilizers once the switches have been soldered.
-![Screws](https://imgur.com/fUJYUYw)
+![Screws](https://imgur.com/fUJYUYw.png)
 
 ### 13b (optional) : Rotary encoders
 Install one or both the rotary encoders in the desired positions. Remember that you can only install one per side, top or bottom position for each. Solder one of the big legs while pressing it gently to ensure that it's flush. Solder the other leg and check. Solder the five pins.
-![Rotary Encoders](https://imgur.com/SlxUt48)
+![Rotary Encoders](https://imgur.com/SlxUt48.png)
 
 ### Step 14. Switches
 Insert a few switches on the plate (one on each corner and a few in the middle for example) so that the plate doesn't flex when you insert other switches. \
