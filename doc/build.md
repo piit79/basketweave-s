@@ -16,9 +16,9 @@ You will need the following tools and components to build the Basketweave-S (not
 
 
 ## Included Components
-The following components are included in the Basketweave keyboard kit:
-![kit](https://imgur.com/4uvzEY2.png)
+The following components are included in the Basketweave-S keyboard kit:
 (The picture includes millmax sockets and stabilizers that can also be purchased alongside the 42 kit but are not included)
+![kit](https://imgur.com/4uvzEY2.png)
 | Ref     | Component              | Qty | Notes |
 | ---     | ---------              | --- | ----- |
 | C1, C2  | 22pF Capacitor         | 2
