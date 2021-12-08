@@ -6,13 +6,13 @@ You will need the following tools and components to build the Basketweave-S (not
 - Soldering iron and solder
 - Phillips head screwdriver
 - Flush side cutters
-- No-clean flux (recommended to prevent bridging on USB pins)
-- 70 MX style switches (or 71 when not using the encoder)
-- 5 PCB mount 2u stabilizers
+- No-clean flux (heavily recommended to prevent bridging on USB pins)
+- 69-72 MX style switches (1 less per encoder, 1 more if you use split backspace)
+- 4-5 PCB mount 2u stabilizers (1 less if you use split backspace)
 - Keycaps (check compatibility, this layout uses many non-standard keys)
 - USB Type C cable
 - (Optional) Some sort of desoldering tool
-- (Optional) A switch puller if you want to use Millmax sockets
+- (Optional) A switch puller is better if you want to use Millmax sockets
 
 
 ## Included Components
