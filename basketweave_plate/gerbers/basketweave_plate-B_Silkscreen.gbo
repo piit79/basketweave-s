@@ -2,8 +2,8 @@ G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.2-378541a8eb~116~ubuntu21.10.1*
 G04 #@! TF.CreationDate,2022-03-16T11:59:57+01:00*
 G04 #@! TF.ProjectId,basketweave_plate,6261736b-6574-4776-9561-76655f706c61,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Soldermask,Bot*
-G04 #@! TF.FilePolarity,Negative*
+G04 #@! TF.FileFunction,Legend,Bot*
+G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
 G04 Created by KiCad (PCBNEW 6.0.2-378541a8eb~116~ubuntu21.10.1) date 2022-03-16 11:59:57*
@@ -2290,6 +2290,7 @@ G75*
 G03*
 X356556250Y-81487500I-1000000J0D01*
 G01*
+%LPC*%
 D11*
 X72339200Y-130276600D02*
 X73228200Y-130276600D01*
